@@ -138,16 +138,18 @@ Datasets:-  MNRE / National Green Hydrogen Mission (NGHM),
 --- 
 ### 📖 How to Use (Planned Steps)
 
-# Clone the repo
+** Clone the repo **
 git clone https://github.com/ronyshahab/TeamRajdip.git
 
-# Install dependencies
+** Install dependencies **
 pip install -r requirements.txt
 
-# Run application
+** Run application **
 python app.py
 
-🤝 Contributing
+---
+
+** 🤝 Contributing **
 
 Contributions are welcome! 🎉
 Please open an issue or submit a pull request if you’d like to improve this project.
