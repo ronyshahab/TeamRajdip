@@ -75,6 +75,10 @@ Sample Report Snippet
 
 ![Alt text](./assets/output.jpg)
 
+![Alt text](./assets/output1.jpg)
+
+![Alt text](./assets/output2.jpg)
+
 ---
 
 ### 📌 Future Scope
