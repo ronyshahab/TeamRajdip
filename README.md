@@ -18,6 +18,8 @@ We propose an **AI-powered, two-agent system** to **map existing infrastructure*
 
 ---
 
+![Alt text](./assets/image_one.jpg)
+
 ## 🤖 System Architecture  
 
 ```mermaid
