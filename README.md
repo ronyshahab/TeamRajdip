@@ -45,7 +45,7 @@ Collects key data from online sources:
 
 Processes collected data and generates detailed recommendations.
 
-Output: PDF/HTML Report including:
+Output: HTML Report including:
 
 📍 Location & Title
 🗺️ Mapping Visualization (GIS-based)
@@ -104,23 +104,22 @@ Sample Report Snippet
 
 🛠️ Tech Stack (Planned)
 
-Frontend: React + TailwindCSS (Map visualization, dashboards)
+Frontend: VanillaJs(Map visualization, dashboards)
 
-Backend: FastAPI / Node.js
+Backend: FastAPI 
 
 AI/Agents: Python (LangChain, LLMs)
 
-Mapping: Leaflet / Mapbox / GIS APIs
+Mapping: Leaflet
 
-Database: PostgreSQL + PostGIS
+Datasets:-  MNRE / National Green Hydrogen Mission (NGHM), 
+            PNGRB Data Bank
+            data.gov.in / OGD Platform
 
 📖 How to Use (Planned Steps)
 
 # Clone the repo
-git clone https://github.com/username/hydrogen-mapping-tool.git
-
-# Navigate into project
-cd hydrogen-mapping-tool
+git clone https://github.com/ronyshahab/TeamRajdip.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -128,14 +127,11 @@ pip install -r requirements.txt
 # Run application
 python app.py
 
-(Detailed usage guide will be updated after prototype is ready)
-
 🤝 Contributing
 
 Contributions are welcome! 🎉
 Please open an issue or submit a pull request if you’d like to improve this project.
 
 👨‍💻 Author
-
-Your Name
-🔗 LinkedIn
+Parth Mahakal
+Ronak Singh
