@@ -2,9 +2,13 @@
 # pip install google-genai
 
 import os
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
+
+load_dotenv()
+api_key = os.getenv("Apikey")
 
 format_structured_data = ''
 format_structured_data_1 = ''
@@ -20,7 +24,7 @@ with open("format.txt", "r") as file:
 
 def generate(place):
     client = genai.Client(
-        api_key=("AIzaSyAjuLih-CAHDMsCbWSefhJ6s46mrP2hRAE"),  # <-- better to load from env var
+        api_key=(api_key),  # <-- better to load from env var
     )
 
     model = "gemini-2.0-flash"
