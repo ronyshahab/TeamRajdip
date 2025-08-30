@@ -71,12 +71,9 @@ Outputs (Right Side):
 
 ### 📊 Example Output (Mockup)
 
-Below images are placeholders — replace with real diagrams later.
-
-Mapping Visualization
-
-
 Sample Report Snippet
+
+![Alt text](./assets/output.jpg)
 
 ---
 
