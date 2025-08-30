@@ -21,28 +21,37 @@ We propose an **AI-powered, two-agent system** to **map existing infrastructure*
 - **Agent 1 (Data Collector)** → Fetches and aggregates data.  
 - **Agent 2 (Recommender)** → Analyzes, maps, and generates actionable reports.  
 
-### 🔹 Agent 1 – Data Collector  
+## Architecutre##
+![Alt text](./assets/image_two.png)
 
-Accepts **flexible inputs** such as:  
-- 📏 Plant area size  
+**📌 Solution Architecture Explanation** 
 
-- 🏙️ City/region preference  
+Inputs:
 
-- ⚡ Production capacity  
+Web Engine – User interface to interact with the tool.
 
-- 💰 Investment budget  
+Location, Capital, Storage, Pipeline – Core datasets about infrastructure and resources.
 
-Collects key data from online sources:
+Data Handling (Center):
 
-- 🏭 Existing hydrogen plants & pipelines
+- Datasets Collection – Collects all raw input data.
 
-- 🚛 Market hubs & transportation access
+-  Formalize Data – Converts data into a structured format.
 
-- 🌍 Environmental & regulatory features
+-  Data Cleaning – Removes errors, duplicates, and inconsistencies.
 
-- 🏗️ Land availability & cost
+-  Calculation – AI/ML and geospatial models analyze demand, costs, and site suitability.
 
-- 👷 Labour cost and availability
+Outputs (Right Side):
+
+-  Layer Extraction & Mapping – Generates interactive multi-layer maps of infrastructure, demand, and renewable energy.
+
+-  Cost Estimation – Provides financial feasibility of projects.
+
+-  Integration – Ensures alignment with existing networks and policies.
+
+-  Recovery Time – Estimates how quickly investments will yield returns.
+
 
 ---
 
