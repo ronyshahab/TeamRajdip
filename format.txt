@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Una, Gujarat Hydrogen Ecosystem</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f9ff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    #map {
+      height: 500px;
+      margin: 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      width: 90%;
+    }
+
+    h2 {
+      color: #0077b6;
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.6rem;
+    }
+
+    p {
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto 20px auto;
+    }
+
+    .asset-table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .asset-table th {
+      background: #00b4d8;
+      color: #fff;
+      font-weight: 600;
+      padding: 12px;
+    }
+
+    .asset-table td {
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+    }
+
+    .asset-table tr:nth-child(even) {
+      background: #f1faff;
+    }
+
+    .asset-table tr:hover {
+      background: #e0f7fa;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      width: 80%;
+      margin: 20px auto 50px auto;
+      padding: 0;
+      list-style: none;
+    }
+
+    ul li {
+      background: #e6f7ff;
+      padding: 12px 18px;
+      margin: 10px 0;
+      border-left: 6px solid #00b4d8;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      background: #d4f0f9;
+      transform: translateX(5px);
+    }
+
+    footer {
+      background: #0077b6;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Una, Gujarat Hydrogen Ecosystem</h1>
+    <p>Identifying growth areas and existing/planned assets for hydrogen development in Una, Gujarat.</p>
+  </header>
+
+  <div id="map"></div>
+
+  <h2>Existing and Planned Assets</h2>
+  <p>Below is a summary of existing and planned hydrogen assets in and around Una. This data can help guide new investments and strategic decisions.</p>
+
+  <table class="asset-table">
+    <thead>
+      <tr>
+        <th>Asset Type</th>
+        <th>Description</th>
+        <th>Location</th>
+        <th>Status</th>
+        <th>Details/Source</th>
+      </tr>
+    </thead>
+    <tbody>
+     <tr>
+        <td>Green Hydrogen Plant</td>
+        <td>First 'Make in India' Green Hydrogen Plant.</td>
+        <td>Kandla Port, Gujarat.</td>
+        <td>Commissioned.</td>
+        <td>Supplies green hydrogen to power buses and street lighting within the port; expandable to 10MW.</td>
+      </tr>
+      <tr>
+        <td>Green Hydrogen Blending Project</td>
+        <td>Blending green hydrogen with natural gas.</td>
+        <td>NTPC Kawas plant in Gujarat.</td>
+        <td>Pilot project.</td>
+        <td>Blending of 2.2-2.3% green hydrogen into natural gas supplied to over 4,000 residential and commercial customers in Ahmedabad, Gujarat.</td>
+      </tr>
+      <tr>
+       <td>Green Hydrogen Plant</td>
+        <td>Reliance is targeting 3 mtpa of green hydrogen production.</td>
+        <td>Jamnagar, Gujarat.</td>
+        <td>Planned.</td>
+        <td>Electrolyser gigafactory scaled to 3GW by 2026.</td>
+      </tr>
+      <tr>
+        <td>Green Hydrogen Plant</td>
+        <td>Adani New Industries Ltd (ANIL) is developing.</td>
+        <td>Mundra, Gujarat.</td>
+        <td>Under Construction.</td>
+        <td>ANIL is building an end-to-end ecosystem for large-scale green hydrogen production and its derivatives including manufacturing of solar cells, wind turbine generators, and electrolysers.</td>
+      </tr>
+       <tr>
+        <td>Green Hydrogen Plant</td>
+        <td>India's first off-grid 5 MW Green Hydrogen Pilot Plant.</td>
+        <td>Kutch, Gujarat.</td>
+        <td>Commissioned.</td>
+        <td>Powered by solar energy and a Battery Energy Storage System, the plant operates independently.</td>
+      </tr>
+      <tr>
+        <td>Green Hydrogen Plant</td>
+        <td>Aims to produce 400,000 tonnes of green hydrogen annually.</td>
+        <td>Gujarat.</td>
+        <td>Planned.</td>
+        <td>Essar Group plans to invest ₹300 billion to establish a green hydrogen plant.</td>
+      </tr>
+      <tr>
+        <td>Green Hydrogen Hub</td>
+        <td>Massive green hydrogen and ammonia production.</td>
+        <td>Port of Kandla, Gujarat.</td>
+        <td>Planned.</td>
+        <td>Reliance Industries is leading a consortium to develop a $12 billion green hydrogen hub.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Cost Estimation</h2>
+  <p>Note that these are rough estimates, and actual costs can vary widely.</p>
+  <ul>
+    <li><b>Land Price:</b> Land prices in Una vary. Residential plots can range from ₹312/sq.ft to ₹4,958/sq.ft. Agricultural land may have different rates. For industrial purposes, land acquisition costs would need specific assessment.</li>
+    <li><b>Refinery Setup (Detailed Breakdown):</b>
+      <ul>
+        <li>Electrolyzer costs: A 100 MW plant could cost around $245 million (USD 2,450 per kilowatt).</li>
+        <li>Balance of plant: This includes rectifiers, transformers, cooling, and safety systems, adding 30-60% to electrolyzer hardware costs.</li>
+        <li>Water treatment: Costs depend on the water source. Desalination, if required, adds to the cost.</li>
+        <li>Compression and storage: Compression consumes 2-7 kWh per kg of hydrogen. Storage options range from high-pressure tanks to underground caverns.</li>
+        <li>Site preparation, engineering, and permitting: These indirect costs and contingencies can significantly impact the initial capital.</li>
+      </ul>
+    </li>
+    <li><b>Pipelines:</b> Pipeline construction costs vary. A Gujarat gas pipeline project cost Rs 650 crore (approximately $760 million USD) for 18 million standard cubic meters per day capacity. Costs depend on diameter, material, and terrain.</li>
+    <li><b>Labour:</b> Labour costs in Gujarat were reported at INR 1,255.52 per manday worked for all employees in March 2023. Minimum wages range from ₹12,649 to ₹13,507 per month depending on zone and skill level.</li>
+    <li><b>Transportation:</b> Costs depend on the mode (pipeline, truck, ship). Transporting ammonia from Gujarat to Japan has been estimated.</li>
+    <li><b>Raw Materials:</b> Raw materials include water and electricity. Green hydrogen production relies on renewable energy sources like solar and wind.</li>
+    <li><b>Time Estimation (Setup Duration):</b> Plant construction can take several months to years. Kandla's green hydrogen plant was constructed in four months. Reliance is scaling its electrolyzer gigafactory to 3GW by 2026.</li>
+  </ul>
+
+  <h2>Potential Growth Areas</h2>
+  <ul>
+    <li><b>Industrial Use:</b> Integrate hydrogen into industries like chemicals, fertilizers, and steel in the region.</li>
+    <li><b>Renewable Energy Integration:</b> Utilize Gujarat's solar and wind resources for green hydrogen production.</li>
+    <li><b>Port Infrastructure:</b> Leverage existing port infrastructure for hydrogen export.</li>
+    <li><b>Government Support:</b> Capitalize on government incentives and land allocation for green hydrogen projects.</li>
+  </ul>
+
+  <footer>
+    &copy; 2025 Una Hydrogen Ecosystem | Clean Energy Future
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+    var map = L.map('map').setView([20.8150, 70.9727], 10); // Una coordinates
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    
+    var unaMarker = L.marker([20.8150, 70.9727]).addTo(map);
+    unaMarker.bindPopup("<b>Una</b><br>Potential Growth Area");
+
+    var kandlaMarker = L.marker([23.0145, 70.2159]).addTo(map);
+    kandlaMarker.bindPopup("<b>Kandla Port</b><br>Green Hydrogen Production Facility");
+
+    var mundraMarker = L.marker([22.8424, 69.7255]).addTo(map);
+    mundraMarker.bindPopup("<b>Mundra</b><br>Adani Green Industries");
+
+    var jamnagarMarker = L.marker([22.4707, 70.0577]).addTo(map);
+    jamnagarMarker.bindPopup("<b>Jamnagar</b><br>Reliance Industries");
+
+    // Pipeline from Mundra to Jamnagar
+    var pipelinePoints = [
+      [22.8424, 69.7255], // Mundra
+      [22.4707, 70.0577]  // Jamnagar
+    ];
+
+    var pipeline = L.polyline(pipelinePoints, {
+      color: 'blue',
+      weight: 3,
+      opacity: 0.7,
+      dashArray: '10, 10'
+    }).addTo(map);
+    pipeline.bindPopup("<b>Hydrogen Pipeline</b><br>Mundra to Jamnagar (Planned)");
+  </script>
+</body>
+</html>

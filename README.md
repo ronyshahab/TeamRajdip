@@ -21,10 +21,10 @@ We propose an **AI-powered, two-agent system** to **map existing infrastructure*
 - **Agent 1 (Data Collector)** → Fetches and aggregates data.  
 - **Agent 2 (Recommender)** → Analyzes, maps, and generates actionable reports.  
 
-## Architecutre##
+## Architecutre 
 ![Alt text](./assets/image_two.png)
 
-**📌 Solution Architecture Explanation** 
+**📌 Solution Architecture Explanation**
 
 Inputs:
 
@@ -51,49 +51,6 @@ Outputs (Right Side):
 -  Integration – Ensures alignment with existing networks and policies.
 
 -  Recovery Time – Estimates how quickly investments will yield returns.
-
-
----
-
-### 🔹 Agent 2 – Recommender
-
-Processes collected data and generates detailed recommendations.
-
-Output: HTML Report including:
-
-📍 Location & Title
-🗺️ Mapping Visualization (GIS-based)
-💵 Cost Estimation (breakdown):
-
-Land price
-
-Refinery establishment (detailed)
-
-Pipeline setup
-
-Labour, raw materials, transportation
-
-Setup duration
-
-🔗 Integration Cost (with existing infra)
-
-⏳ Recovery Time (investment payback period)
-
----
-
-### ⚙️ Workflow
-
-1️⃣ User provides input (budget, region, plant size, etc.)
-
-2️⃣ Agent 1 gathers relevant data
-
-3️⃣ Agent 2 analyzes and recommends
-
-4️⃣ System outputs:
-
- - 📍 Interactive Map (existing + new infra)
-
- - 📑 Detailed Report (PDF/HTML)
 
 
 ---
