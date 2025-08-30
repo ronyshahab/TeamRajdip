@@ -25,8 +25,11 @@ We propose an **AI-powered, two-agent system** to **map existing infrastructure*
 
 Accepts **flexible inputs** such as:  
 - 📏 Plant area size  
+
 - 🏙️ City/region preference  
+
 - ⚡ Production capacity  
+
 - 💰 Investment budget  
 
 Collects key data from online sources:
@@ -62,7 +65,9 @@ Pipeline setup
 Labour, raw materials, transportation
 
 Setup duration
+
 🔗 Integration Cost (with existing infra)
+
 ⏳ Recovery Time (investment payback period)
 
 ---
@@ -132,19 +137,24 @@ AI/Agents: Python (LangChain, LLMs)
 Mapping: Leaflet
 
 Datasets:-  MNRE / National Green Hydrogen Mission (NGHM), 
+
             PNGRB Data Bank
+
             data.gov.in / OGD Platform
 
 --- 
 ### 📖 How to Use (Planned Steps)
 
 **Clone the repo**
+
 git clone https://github.com/ronyshahab/TeamRajdip.git
 
 **Install dependencies**
+
 pip install -r requirements.txt
 
 **Run application**
+
 python app.py
 
 ---
@@ -155,5 +165,6 @@ Contributions are welcome! 🎉
 Please open an issue or submit a pull request if you’d like to improve this project.
 
 👨‍💻 Author
-Parth Mahakal
+Parth Mahakal 
+
 Ronak Singh
