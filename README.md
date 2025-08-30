@@ -66,8 +66,11 @@ Setup duration
 ⚙️ Workflow
 
 1️⃣ User provides input (budget, region, plant size, etc.)
+
 2️⃣ Agent 1 gathers relevant data
+
 3️⃣ Agent 2 analyzes and recommends
+
 4️⃣ System outputs:
 
 📍 Interactive Map (existing + new infra)
@@ -77,10 +80,14 @@ Setup duration
 🚀 Key Benefits
 
 ✅ Data-driven insights for hydrogen plant investments
+
 ✅ Automated mapping using GIS & AI
+
 ✅ Comprehensive cost analysis with ROI & payback time
+
 ✅ Supports policymakers & investors with evidence-based planning
-✅ Scalable to other renewable infrastructures (solar, wind, etc.)
+ 
+✅ Scalable to other renewable infrastructures (solar, wind, etc.) 
 
 📊 Example Output (Mockup)
 
