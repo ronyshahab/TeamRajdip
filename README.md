@@ -143,3 +143,27 @@ Mapping: Leaflet / Mapbox / GIS APIs
 Database: PostgreSQL + PostGIS
 
 📖 How to Use (Planned Steps)
+
+# Clone the repo
+git clone https://github.com/username/hydrogen-mapping-tool.git
+
+# Navigate into project
+cd hydrogen-mapping-tool
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python app.py
+
+(Detailed usage guide will be updated after prototype is ready)
+
+🤝 Contributing
+
+Contributions are welcome! 🎉
+Please open an issue or submit a pull request if you’d like to improve this project.
+
+👨‍💻 Author
+
+Your Name
+🔗 LinkedIn
