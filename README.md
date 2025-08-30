@@ -41,7 +41,9 @@ Collects key data from online sources:
 
 - 👷 Labour cost and availability
 
-🔹 Agent 2 – Recommender
+---
+
+### 🔹 Agent 2 – Recommender
 
 Processes collected data and generates detailed recommendations.
 
@@ -63,7 +65,9 @@ Setup duration
 🔗 Integration Cost (with existing infra)
 ⏳ Recovery Time (investment payback period)
 
-⚙️ Workflow
+---
+
+### ⚙️ Workflow
 
 1️⃣ User provides input (budget, region, plant size, etc.)
 
@@ -73,11 +77,14 @@ Setup duration
 
 4️⃣ System outputs:
 
-📍 Interactive Map (existing + new infra)
+ - 📍 Interactive Map (existing + new infra)
 
-📑 Detailed Report (PDF/HTML)
+ - 📑 Detailed Report (PDF/HTML)
 
-🚀 Key Benefits
+
+---
+
+### 🚀 Key Benefits
 
 ✅ Data-driven insights for hydrogen plant investments
 
@@ -86,10 +93,12 @@ Setup duration
 ✅ Comprehensive cost analysis with ROI & payback time
 
 ✅ Supports policymakers & investors with evidence-based planning
- 
+
 ✅ Scalable to other renewable infrastructures (solar, wind, etc.) 
 
-📊 Example Output (Mockup)
+---
+
+### 📊 Example Output (Mockup)
 
 Below images are placeholders — replace with real diagrams later.
 
@@ -98,8 +107,9 @@ Mapping Visualization
 
 Sample Report Snippet
 
+---
 
-📌 Future Scope
+### 📌 Future Scope
 
 🌐 Integration with real-time GIS datasets.
 
@@ -109,7 +119,9 @@ Sample Report Snippet
 
 🤝 Collaboration with governments & private investors.
 
-🛠️ Tech Stack (Planned)
+--- 
+
+### 🛠️ Tech Stack (Planned)
 
 Frontend: VanillaJs(Map visualization, dashboards)
 
@@ -123,7 +135,8 @@ Datasets:-  MNRE / National Green Hydrogen Mission (NGHM),
             PNGRB Data Bank
             data.gov.in / OGD Platform
 
-📖 How to Use (Planned Steps)
+--- 
+### 📖 How to Use (Planned Steps)
 
 # Clone the repo
 git clone https://github.com/ronyshahab/TeamRajdip.git
