@@ -31,15 +31,15 @@ Accepts **flexible inputs** such as:
 
 Collects key data from online sources:
 
-🏭 Existing hydrogen plants & pipelines
+- 🏭 Existing hydrogen plants & pipelines
 
-🚛 Market hubs & transportation access
+- 🚛 Market hubs & transportation access
 
-🌍 Environmental & regulatory features
+- 🌍 Environmental & regulatory features
 
-🏗️ Land availability & cost
+- 🏗️ Land availability & cost
 
-👷 Labour cost and availability
+- 👷 Labour cost and availability
 
 🔹 Agent 2 – Recommender
 
