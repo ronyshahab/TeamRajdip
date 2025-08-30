@@ -1,7 +1,4 @@
-**Green 
-Hydrogen Infrastructure Map Optimization using AI Agent**
-
-# 🌍 Hydrogen Plant Mapping & Recommendation Tool  
+# 🌍 Green Hydrogen Infrastructure Map Optimization using AI Agent  
 
 ![License](https://img.shields.io/badge/license-MIT-green)  
 ![Status](https://img.shields.io/badge/status-in--progress-yellow)  
@@ -10,20 +7,6 @@ Hydrogen Infrastructure Map Optimization using AI Agent**
 
 ---
 
-## 📌 Problem Statement  
-
-Hydrogen is emerging as a **key clean energy source** for the future.  
-But planning and setting up hydrogen power plants is **complex** and involves:  
-
-- Understanding **existing infrastructure** (pipelines, refineries, plants).  
-- Evaluating **market access** and **transportation logistics**.  
-- Estimating **land cost, labour, and resources**.  
-- Considering **environmental and regulatory** aspects.  
-- Calculating **investment feasibility** and **time to recover costs**.  
-
-Currently, these insights are **scattered across multiple sources**, making decision-making difficult for investors, policymakers, and energy companies.  
-
----
 
 ## 🎯 Our Solution  
 
