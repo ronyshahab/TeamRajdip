@@ -7,6 +7,11 @@
 
 ---
 
+![Alt text](./assets/image_one.jpg)
+
+
+---
+
 
 ## 🎯 Our Solution  
 
@@ -15,20 +20,6 @@ We propose an **AI-powered, two-agent system** to **map existing infrastructure*
 ✨ **Key Idea**:  
 - **Agent 1 (Data Collector)** → Fetches and aggregates data.  
 - **Agent 2 (Recommender)** → Analyzes, maps, and generates actionable reports.  
-
----
-
-![Alt text](./assets/image_one.jpg)
-
-## 🤖 System Architecture  
-
-```mermaid
-flowchart LR
-    A[User Input] --> B[Agent 1 - Data Collector]
-    B --> C[Data (Infrastructure, Cost, Market, Environment)]
-    C --> D[Agent 2 - Recommender]
-    D --> E[Output Report & Map]
-
 
 🔹 Agent 1 – Data Collector
 
