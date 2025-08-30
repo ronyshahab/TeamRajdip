@@ -21,17 +21,13 @@ We propose an **AI-powered, two-agent system** to **map existing infrastructure*
 - **Agent 1 (Data Collector)** → Fetches and aggregates data.  
 - **Agent 2 (Recommender)** → Analyzes, maps, and generates actionable reports.  
 
-🔹 Agent 1 – Data Collector
+### 🔹 Agent 1 – Data Collector  
 
-Accepts flexible inputs such as:
-
-📏 Plant area size
-
-🏙️ City/region preference
-
-⚡ Production capacity
-
-💰 Investment budget
+Accepts **flexible inputs** such as:  
+- 📏 Plant area size  
+- 🏙️ City/region preference  
+- ⚡ Production capacity  
+- 💰 Investment budget  
 
 Collects key data from online sources:
 
