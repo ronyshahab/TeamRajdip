@@ -74,6 +74,11 @@ def generate(place):
     )
 
     # Print the full response at once
-    return(response.text)
+
+    with open("./templates/output.html", "w") as file:
+        file.write(response.text)
+
+    return 1
+    
 
 
