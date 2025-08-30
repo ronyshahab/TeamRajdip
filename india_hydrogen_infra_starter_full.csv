@@ -1,0 +1,26 @@
+category,name,operator,state,district,latitude,longitude,capacity,notes,source
+hydrogen_project,IOCL Panipat Green H2 Plant,Indian Oil Corporation (IOCL),Haryana,Panipat,29.3909,76.9635,"10,000 tpa",Green H2 at Panipat refinery; target commissioning 2027,https://www.iocl.com/NewsDetails/59411
+hydrogen_project,GAIL Vijaipur Green H2 Plant,GAIL (India) Ltd,Madhya Pradesh,Guna (Vijaipur),24.329,77.16,10 MW PEM,Operational/commissioned (company release/articles),https://economictimes.indiatimes.com/
+hydrogen_project,NTPC Kawas H2 Blending Pilot (Surat),NTPC / Gujarat Gas,Gujarat,Surat (Kawas),21.154,72.715,pilot,Pilot for blending H2 into PNG,https://nghm.mnre.gov.in/
+hydrogen_project,NTPC Leh H2 Mobility Pilot,NTPC,Ladakh,Leh,34.1642,77.5848,pilot,Electrolyser + solar for FCEV buses,https://www.livemint.com/
+hydrogen_project,ACME Green Ammonia (Gopalpur),ACME Group / partners,Odisha,Ganjam (Gopalpur),19.351,84.983,400 ktpa (planned),Green ammonia export/ domestic supply; large project,https://energy.economictimes.indiatimes.com/
+refinery,Jamnagar Refinery (Reliance),Reliance Industries,Gujarat,Jamnagar,22.4707,70.0577,~35.4 MTPA,World's largest refinery complex,https://en.wikipedia.org/wiki/List_of_oil_refineries_in_India
+refinery,Vadinar Refinery (Nayara),Nayara Energy,Gujarat,Vadinar,21.5299,69.0256,~20 MTPA,Major private refinery,https://en.wikipedia.org/wiki/List_of_oil_refineries_in_India
+refinery,Kochi Refinery (BPCL),Bharat Petroleum,Kerala,Kochi,9.9312,76.2673,~15.5 MTPA,Large public refinery,https://en.wikipedia.org/wiki/List_of_oil_refineries_in_India
+refinery,Mangalore Refinery (MRPL),ONGC/ MRPL,Karnataka,Mangalore,12.9141,74.8557,~15 MTPA,Major refinery on west coast,https://en.wikipedia.org/wiki/List_of_oil_refineries_in_India
+refinery,Paradip Refinery (IOCL),Indian Oil Corporation,Odisha,Paradip,20.3163,86.6066,~15 MTPA,Strategic east-coast refinery,https://en.wikipedia.org/wiki/List_of_oil_refineries_in_India
+refinery,Panipat Refinery (IOCL),Indian Oil Corporation,Haryana,Panipat,29.387,76.968,~15 MTPA (expanding),Site for IOCL green hydrogen integration,https://en.wikipedia.org/wiki/List_of_oil_refineries_in_India
+refinery,Koyali (Vadodara) Refinery (IOC),Indian Oil Corporation,Gujarat,Vadodara (Koyali),22.3072,73.1812,~13.7 MTPA,Also called Koyali refinery,https://ppac.gov.in/
+refinery,Visakhapatnam Refinery (HPCL),Hindustan Petroleum,Andhra Pradesh,Visakhapatnam,17.6868,83.2185,~8.3 MTPA,East coast refinery with petrochemicals,https://ppac.gov.in/
+port,Kandla (Deendayal) Port,Kandla Port Trust,Gujarat,Kutch (Kandla),23.0286,70.2233,,Major import/export port on west coast,https://data.humdata.org/
+port,Mumbai Port,Mumbai Port Trust,Maharashtra,Mumbai,18.9478,72.8394,,Major multipurpose port,https://data.humdata.org/
+port,Visakhapatnam Port,Vizag Port Trust,Andhra Pradesh,Visakhapatnam,17.6868,83.2185,,Major east-coast port,https://data.humdata.org/
+port,Paradip Port,Paradip Port Trust,Odisha,Paradip,20.3163,86.6066,,Close to Paradip refinery and Gopalpur corridor,https://data.humdata.org/
+port,Chennai Port,Chennai Port Trust,Tamil Nadu,Chennai,13.0827,80.2707,,Major southern port,https://data.humdata.org/
+pipeline_node,Dahej LNG / Industrial Cluster,Multiple (Petrochem),Gujarat,Bharuch/Ankleshwar area,21.7645,72.1286,,"Large gas hub, potential H2 offtake/industrial cluster",https://en.wikipedia.org/
+pipeline_node,Hazira Industrial Area,Multiple/Adani,Gujarat,Surat (Hazira),21.1256,72.5887,,Major LNG and industrial terminal area,https://en.wikipedia.org/
+pipeline_node,Vijaipur Gas Complex (GAIL),GAIL,Madhya Pradesh,Guna (Vijaipur),24.329,77.16,,GAIL hub and pipeline interconnects,https://gailonline.com/
+storage,Underground gas storage (approx. locations) – KG Basin / others,Various,Offshore / multiple,,16.5,82.0,,Placeholder for planned UGS; look up MoPNG/PNGRB for details,https://ppac.gov.in/
+market_node,IFFCO Paradeep (Fertilizer complex),IFFCO,Odisha,Paradeep,20.3163,86.6066,,Potential large ammonia consumer/anchor offtaker,https://iffco.in/
+market_node,Tata Steel – Jamshedpur,Tata Steel,Jharkhand,Jamshedpur,22.8046,86.2029,,Industrial hydrogen demand center,https://tata.com/
+market_node,Reliance Jamnagar Petrochemical Complex,Reliance Industries,Gujarat,Jamnagar,22.4707,70.0577,,Major petrochemical demand center,https://relianceindustries.com/
