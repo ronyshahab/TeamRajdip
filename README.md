@@ -7,7 +7,7 @@
 
 ---
 
-![Alt text](./assets/image_one.jpg)
+![Alt text](./assets/image_one.png)
 
 
 ---
