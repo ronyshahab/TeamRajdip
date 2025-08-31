@@ -14,7 +14,7 @@ def home():
 @app.route("/submit", methods=['POST'])
 def generate_report():
     input = request.form['input']
-    # generate(input)   
+    generate(input)   
     # time.sleep(10)
     return render_template('output.html')
 
