@@ -52,21 +52,6 @@ Outputs (Right Side):
 
 -  Recovery Time – Estimates how quickly investments will yield returns.
 
-
----
-
-### 🚀 Key Benefits
-
-✅ Data-driven insights for hydrogen plant investments
-
-✅ Automated mapping using GIS & AI
-
-✅ Comprehensive cost analysis with ROI & payback time
-
-✅ Supports policymakers & investors with evidence-based planning
-
-✅ Scalable to other renewable infrastructures (solar, wind, etc.) 
-
 ---
 
 ### 📊 Example Output (Mockup)
