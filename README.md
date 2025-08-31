@@ -93,22 +93,6 @@ Sample Report Snippet
 
 --- 
 
-### 🛠️ Tech Stack (Planned)
-
-Frontend: VanillaJs(Map visualization, dashboards)
-
-Backend: FastAPI 
-
-AI/Agents: Python (LangChain, LLMs)
-
-Mapping: Leaflet
-
-Datasets:-  MNRE / National Green Hydrogen Mission (NGHM), 
-
-            PNGRB Data Bank
-
-            data.gov.in / OGD Platform
-
 --- 
 ### 📖 How to Use (Planned Steps)
 
